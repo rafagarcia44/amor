@@ -1,0 +1,72 @@
+/* Estilo general para el fondo */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #ffe6e6, #ffc2c2);
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Contenedor de la carta */
+  .message-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  /* Estilo de la carta */
+  .card {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border: 2px solid #ffcccc;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Estilo del título */
+  .card h1 {
+    font-size: 2.5rem;
+    color: #ffd154;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  /* Estilo del mensaje */
+  .card p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #333;
+    font-style: italic;
+    padding: 10px;
+    border: 2px dashed #ff9999;
+    border-radius: 8px;
+    background-color: #ffe6e6;
+  }
+  
+  /* Detalles decorativos adicionales */
+  .card:before,
+  .card:after {
+   content: "🌻";
+    font-size: 3rem;
+    color: #ff6666;
+    position: absolute;
+  }
+  
+  .card:before {
+    top: -20px;
+    left: -20px;
+  }
+  
+  .card:after {
+    bottom: -20px;
+    right: -20px;
+  }
+  
